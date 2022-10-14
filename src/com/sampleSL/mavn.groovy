@@ -6,6 +6,7 @@ class mavn {
         
       def url(name)
       {  
+        echo "SCM URL, ${name}."
         pipeline {
         agent any
             stages {
