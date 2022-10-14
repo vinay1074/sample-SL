@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package com.sampleSL
 
-class SampleClass {
+class mavn {
    String name
         pipeline {
         agent any
