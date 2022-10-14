@@ -1,8 +1,9 @@
 #!/usr/bin/env groovy
 package com.sampleSL
 
-def call(String name) {
-    pipeline {
+class SampleClass {
+   String name
+        pipeline {
         agent any
             stages {
                 stage ('SCM') {
@@ -21,3 +22,4 @@ def call(String name) {
             }
         }
     }
+
