@@ -3,6 +3,7 @@ package com.sampleSL
 
 class mavn {
    String name
+        echo "SCM URL, ${name}."
         pipeline {
         agent any
             stages {
