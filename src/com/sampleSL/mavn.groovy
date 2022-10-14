@@ -2,9 +2,8 @@
 package com.sampleSL
 
 class mavn {
-   String name
-        
-      def url(name)
+          
+      def url(String name)
       {  
         echo "SCM URL, ${name}."
         pipeline {
