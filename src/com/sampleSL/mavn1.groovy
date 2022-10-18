@@ -2,8 +2,10 @@
 package com.sampleSL
 
 class mavn1 {
+   String name
+   Integer age
    
-   def name(String name1) {
-     
+      def increaseAge(Integer years) {
+      this.age += years
    }
 }
