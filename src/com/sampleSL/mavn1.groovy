@@ -5,9 +5,7 @@ class mavn1 {
    String test
    //Integer age
       def SCM (String name) {
-           script {
-            git "${name}"
-           }
+           git "${name}"
            this.test = name
 }
 }
