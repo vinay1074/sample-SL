@@ -5,5 +5,5 @@ class mavn1 {
    String test
    //Integer age
       def SCM (String name)
-           this.test=name
+           this.test = name
 }
