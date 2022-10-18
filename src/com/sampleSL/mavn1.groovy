@@ -2,5 +2,8 @@
 package com.sampleSL
 
 class mavn1 {
-    def SCM (String sample)
+   
+   def name(String name1) {
+     
+   }
 }
