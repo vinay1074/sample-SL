@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 package com.sampleSL
 
-class mavn1 {
-    static String sample = "https://github.com/vinay1074/sample-SL.git"
+class mavn1 () {
+    def SCM (String sample)
 }
