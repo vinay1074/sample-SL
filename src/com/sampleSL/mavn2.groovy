@@ -4,9 +4,6 @@ package com.sampleSL
 class mavn2 {
    String name
    Integer age
-
-    script {
-        git "${age}";
+        git "${age}"
         mvn clean package
-    }
 }
