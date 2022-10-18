@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package com.sampleSL
 
-class SampleClass {
+class mavn2 {
    String name
    Integer age
 }
