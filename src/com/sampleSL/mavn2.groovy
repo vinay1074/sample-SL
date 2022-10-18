@@ -1,11 +1,23 @@
 #!/usr/bin/env groovy
 package com.sampleSL
 
-class mavn2 {
-   String name
-   Integer age
-    def call () {
-        git "${age}"
-        mvn clean package
-}
-}
+def call(String name) {
+    pipeline {
+        agent any
+            stages {
+                stage ('SCM') {
+                    steps {
+                        echo "SCM URL, ${name}."
+                        git "${name}";
+                    }
+                    
+                }
+               stage ('Build') {
+                    steps {
+                        sh 'mvn clean package';
+                    }
+                    
+                } 
+            }
+        }
+    }
