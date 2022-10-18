@@ -2,8 +2,8 @@
 package com.sampleSL
 
 class mavn1 {
-   String name
+   String Test
    //Integer age
-
-      
+      def SCM (String name)
+           Test=name
 }
